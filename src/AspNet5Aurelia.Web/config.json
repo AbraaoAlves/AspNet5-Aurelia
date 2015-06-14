@@ -1,0 +1,10 @@
+{
+  "AppSettings": {
+    "SiteTitle": "AspNet5Aurelia.Web"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-AspNet5Aurelia.Web-d640b2b3-12dd-4582-ba4e-ccf2bc57b1e0;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}
