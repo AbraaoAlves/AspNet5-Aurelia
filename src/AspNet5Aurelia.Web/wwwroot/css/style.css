@@ -1,4 +1,12 @@
-body {
-  background-color: lightgreen; }
+#login-box {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  width: 400px;
+  margin-left: -200px; }
+  #login-box .card-image {
+    height: 140px; }
+  #login-box .row {
+    margin-bottom: 0; }
 
 /*# sourceMappingURL=/maps/style.css.map */

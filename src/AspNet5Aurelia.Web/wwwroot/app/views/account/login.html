@@ -1,25 +1,28 @@
 <template>
-	<div class="login-background">
-		<div class="card-panel z-depth-4" id="login-box">
-			<form submit.delegate="login()">
-				<div class="row">
-					<div class="col s12 input-field">
-						<label>Email</label>
-						<input type="text" name="email" autofocus="">
-					</div>
-				</div>
-				<div class="row">
-					<div class="col s12 input-field">
-						<label>Password</label>
-						<input type="password" name="password">
-					</div>
-				</div>
-				<div class="row">
-					<div class="col s12">
-						<input class="waves-effect waves-light btn" type="submit" value="Login">
-					</div>
-				</div>
-			</form>
-		</div>
+	<div class="card z-depth-4" id="login-box">
+        <div class="card-image teal z-depth-1">
+            <span class="card-title">Asp.NET 5 & Aurelia App</span>
+        </div>
+        <div class="card-content">
+    		<form submit.delegate="login()">
+    			<div class="row">
+    				<div class="col s12 input-field">
+    					<label>Email</label>
+    					<input type="text" name="email" autofocus="">
+    				</div>
+    			</div>
+    			<div class="row">
+    				<div class="col s12 input-field">
+    					<label>Password</label>
+    					<input type="password" name="password">
+    				</div>
+    			</div>
+    			<div class="row">
+    				<div class="col s12 right-align">
+    					<input class="btn waves-effect waves-light" type="submit" value="Login">
+    				</div>
+    			</div>
+    		</form>
+        </div>
 	</div>
 </template>
