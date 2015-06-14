@@ -52,7 +52,7 @@
     "**.vspscc"
   ],
   "scripts": {
-    "postrestore": [ "npm install", "bower install" ],
+    "postrestore": [ "npm install", "bower install", "jspm install" ],
     "prepare": [ "gulp copy" ]
   }
 }
