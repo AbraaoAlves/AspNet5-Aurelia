@@ -1,0 +1,1 @@
+{"version":3,"sources":["2-base/__imports.scss"],"names":[],"mappings":"AAAA,IAAI,CAAC;EACJ,gBAAgB,EAAE,UAAW,GADxB","file":"style.css","sourcesContent":["body {\r\n\tbackground-color: lightgreen;\r\n}"],"sourceRoot":"/source/"}
